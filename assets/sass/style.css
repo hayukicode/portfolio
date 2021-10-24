@@ -125,7 +125,7 @@ header .content_nav .menu_left :hover {
   color: var(--default_color);
 }
 
-header header i {
+header #menu {
   display: none !important;
 }
 
@@ -172,7 +172,7 @@ header header i {
     overflow-y: auto;
     height: 30vh;
   }
-  header .content_nav header i {
+  header .content_nav #menu {
     display: block !important;
   }
 }
