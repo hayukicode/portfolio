@@ -232,7 +232,7 @@ header #menu {
   display: flex;
 }
 
-.home_portfolio .social_buttons .social_btn {
+.home_portfolio .social_buttons .social_btn a {
   padding: 10px 10px;
   border-radius: 5px !important;
   background: var(--dark_one_color);
@@ -250,15 +250,16 @@ header #menu {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  color: #ccc;
 }
 
-.home_portfolio .social_buttons .social_btn i {
+.home_portfolio .social_buttons .social_btn a i {
   font-size: 25px;
   font-weight: 500;
   margin-right: 10px;
 }
 
-.home_portfolio .social_buttons :hover {
+.home_portfolio .social_buttons a:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: var(--da_color);
