@@ -24,11 +24,12 @@
           <div class="logo_nav">
             <span id="btn">W3LLC0DE</span>
           </div>
+          <i id="menu" class="bx bx-menu"></i>
           <div class="menu_left">
-            <a href="#">Sobre Mim</a>
-            <a href="#">Contato</a>
-            <a href="#">Trabalhos</a>
-            <a href="#">Conhecimentos</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#contato">Contato</a>
+            <a href="#trabalho">Trabalhos</a>
+            <a href="#conhecimento">Conhecimentos</a>
           </div>
         </div>
       </div>
@@ -36,10 +37,10 @@
     <main>
       <div class="home_portfolio">
         <div class="alinhamento">
-          <div class="name titulo-delay">
-            <p>Ola, me chamo</p>
-            <div class="name_b">Wellington Henrique</div>
-            <div class="name_d">
+          <div class="name">
+            <p class="titulo-delay">Ola, me chamo</p>
+            <div class="name_b titulo-delay">Wellington Henrique</div>
+            <div class="name_d titulo-delay">
               Desenvolvedor Front-End, Back-End e UI Designer.
             </div>
             <div class="social_buttons scroll-delay">
@@ -62,7 +63,7 @@
           <img src="assets/images/scroll.png" />
         </div>
       </div>
-      <div class="info_portfolio titulo-delay">
+      <div class="info_portfolio titulo-delay" id="sobre">
         <div class="container_i">
           <div class="alinhamento">
             <div class="title_l">SOBRE MIM</div>
@@ -76,7 +77,7 @@
           </div>
         </div>
       </div>
-      <div class="info_portfolio titulo-delay">
+      <div class="info_portfolio titulo-delay" id="conhecimento">
         <div class="container_i">
           <div class="alinhamento">
             <div class="container_row">
@@ -86,26 +87,54 @@
                   Conheça as linguagens na qual trabalho e desenvolvo websites.
                 </div>
               </div>
-              <div class="right_i card-delay">
-                <div class="title_card" data-tooltip="HTML5 - 4 Anos de experiencia."><i class="bx bxl-html5"></i></div>
+              <div class="right_i">
+                <div
+                  class="title_card"
+                  data-tooltip="HTML5 - 4 Anos de experiencia."
+                >
+                  <i class="bx bxl-html5"></i>
+                </div>
 
-                <div class="title_card" data-tooltip="CSS3 - 4 Anos de experiencia."><i class="bx bxl-css3"></i></div>
-                <div class="title_card" data-tooltip="JAVASCRIPT - 1 Ano de experiencia."><i class="bx bxl-javascript"></i></div>
-                <div class="title_card" data-tooltip="REACTJS - 5 Anos de experiencia."><i class="bx bxl-react"></i></div>
-                <div class="title_card" data-tooltip="SASS - 1 Anos de experiencia."><i class="bx bxl-sass"></i></div>
-                <div class="title_card" data-tooltip="PHP - 3 Anos de experiencia."><i class="bx bxl-php"></i></div>
+                <div
+                  class="title_card"
+                  data-tooltip="CSS3 - 4 Anos de experiencia."
+                >
+                  <i class="bx bxl-css3"></i>
+                </div>
+                <div
+                  class="title_card"
+                  data-tooltip="JAVASCRIPT - 1 Ano de experiencia."
+                >
+                  <i class="bx bxl-javascript"></i>
+                </div>
+                <div
+                  class="title_card"
+                  data-tooltip="REACTJS - 5 meses de experiencia."
+                >
+                  <i class="bx bxl-react"></i>
+                </div>
+                <div
+                  class="title_card"
+                  data-tooltip="SASS - 1 Ano de experiencia."
+                >
+                  <i class="bx bxl-sass"></i>
+                </div>
+                <div
+                  class="title_card"
+                  data-tooltip="PHP - 3 Anos de experiencia."
+                >
+                  <i class="bx bxl-php"></i>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="info_portfolio">
+      <div class="info_portfolio" id="trabalho">
         <div class="container_i titulo-delay">
-          <div class="alinhamento ">
+          <div class="alinhamento">
             <div class="title_l">TRABALHOS</div>
-            <div class="description_s">
-             Em Desenvolvimento.
-            </div>
+            <div class="description_s">Em Desenvolvimento.</div>
           </div>
         </div>
       </div>
@@ -115,7 +144,8 @@
         <div class="alinhamento">Desenvolvido por Wellington Henrique</div>
       </div>
     </footer>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/scrollreveal.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
